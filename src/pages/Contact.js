@@ -11,19 +11,30 @@ const Contact = () => {
 
     const HandleForm = (e) => {
         e.preventDefault();
-        send(
-            'service_6c09lah',
-            'template_0wki7yg',
-            {username, message, useremail},
-            'DFfU6nD-YpIx8JyA7'
-        ).then(response => {
-            alert("Email recieved, you will recieve a confirmation email")
-        }).catch(err => {
-            alert("Email failed to send, please try again")
-        })
-        setUsername('')
-        setMessage('')
-        setUseremail('')
+        if (username === "") {
+            alert("Please fill in your name")
+        }
+        else if (message === '') {
+            alert("Please fill in a message");
+        }
+        else if (useremail === '') {
+            alert("Please fill in your email");
+        }
+        else {
+            send(
+                'service_6c09lah',
+                'template_0wki7yg',
+                {username, message, useremail},
+                'DFfU6nD-YpIx8JyA7'
+            ).then(response => {
+                alert("Email recieved, you will recieve a confirmation email")
+            }).catch(err => {
+                alert("Email failed to send, please try again")
+            })
+            setUsername('')
+            setMessage('')
+            setUseremail('')
+        }
     }
     return (
         <div className='contact'>
