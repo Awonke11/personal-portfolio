@@ -30,7 +30,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 3.5em;
+  padding: 2em;
 }
 
 .nav-link-title.active {
@@ -305,6 +305,9 @@
 /** ------------------ Mobile Responsive --------------------  */
 
 @media only screen and (max-width: 600px) {
+  .nav{
+    padding: 1.5em;
+  }
   /*^ ----------- Home Page ----------  */
   .home-content h1 {
     font-size: 2.3rem;
