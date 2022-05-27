@@ -143,8 +143,11 @@
 .proffessions {
   display: flex;
   align-items: center;
-  gap: 1em;
   margin-bottom: 1em;
+}
+
+.proffessions h2 {
+  margin: 0 .5em;
 }
 
 .student {
@@ -203,7 +206,6 @@
   display: flex;
   padding: 1em;
   align-items: center;
-  gap: 2em;
   margin-top: 3em;
 }
 
@@ -211,6 +213,7 @@
   font-size: 1.5rem;
   transition: .6s;
   cursor: pointer;
+  margin: 0 .8em;
 }
 
 .socials a i:hover {
@@ -252,7 +255,6 @@
   flex-direction: column;
   padding: 3em;
   justify-content: space-between;
-  gap: .5em;
 
   background: linear-gradient(150.27deg, rgba(255, 255, 255, 0.4) 5.97%, rgba(255, 255, 255, 0.271875) 42.85%, rgba(255, 255, 255, 0.1) 92.32%);
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
@@ -267,6 +269,7 @@
 .form textarea {
   height: 40%;
   resize: none;
+  margin: 1em 0;
 }
 
 .form input,
