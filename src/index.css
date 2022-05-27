@@ -239,7 +239,10 @@
 
 .fame-text {
   margin-top: 1em;
+  max-width: 400px;
+  text-align: center;
 }
+
 
 /** ------------------ Contact Page --------------------  */
 .form {
@@ -324,8 +327,20 @@
   .about-me {
     padding: 1em;
   }
+  .about-me p {
+    font-size: 1rem;
+  }
   .about-me-title {
     font-size: 3rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .fame-text {
+    margin: 0;
+  }
+  .page-animation {
+    bottom: 100px;
   }
 
   /*^ ----------- Contact Page ----------  */

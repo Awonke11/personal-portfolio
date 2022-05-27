@@ -15,7 +15,7 @@ const About = () => {
                     <h1 className='about-me-title'>Who am I</h1>
                     <p>I am a University of Cape Town student, currently studying Electrical and Computer Engineering.</p>
                     <p>Strictly residing in Cape Town because of school but I can also work remotely.</p>
-                    <p className="fame-text"><b className="qoute">“ In order to be irreplaceable, one must always be different”</b> – Coco Chanel</p>
+                    <h4 className="fame-text"><b className="qoute">“ In order to be irreplaceable, one must always be different”</b> – Coco Chanel</h4>
                 </div>
                 <div className="page-animation">
                     <Link to='/contact' className="next-page">
