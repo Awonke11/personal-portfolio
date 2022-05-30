@@ -7,4 +7,4 @@
 ## Challengies I faced
 - The background videos consume a lot of space because they are stored locally 
 - So when the reponse is sent baxck to the user, it takes a lot of time to load because of this high content files
-- Triend to store them elsewhere
+- I planned to store them elsewhere so that I can access them through a link and that did not work
